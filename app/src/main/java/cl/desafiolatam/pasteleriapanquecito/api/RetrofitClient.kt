@@ -1,4 +1,4 @@
-package cl.desafiolatam.pastelerapanquecito.api
+package cl.desafiolatam.pasteleriapanquecito.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,4 +1,4 @@
-package cl.desafiolatam.pastelerapanquecito.dataBase
+package cl.desafiolatam.pasteleriapanquecito.dataBase
 
 import androidx.room.TypeConverter
 

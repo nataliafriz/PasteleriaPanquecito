@@ -1,4 +1,4 @@
-package cl.desafiolatam.pastelerapanquecito.model
+package cl.desafiolatam.pasteleriapanquecito.model
 
 import java.util.*
 

@@ -1,7 +1,8 @@
-package cl.desafiolatam.pastelerapanquecito.api
+package cl.desafiolatam.pasteleriapanquecito.api
 
-import cl.desafiolatam.pastelerapanquecito.model.Cakes
-import cl.desafiolatam.pastelerapanquecito.model.CakesDetails
+
+import cl.desafiolatam.pasteleriapanquecito.model.Cakes
+import cl.desafiolatam.pasteleriapanquecito.model.CakesDetails
 import retrofit2.Response
 import retrofit2.http.GET
 
