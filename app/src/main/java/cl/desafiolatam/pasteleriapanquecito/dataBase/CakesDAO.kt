@@ -16,7 +16,7 @@ interface CakesDAO {
     fun getCakes(): LiveData<List<CakesEntity>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertCakesDetails(details: CakesDetailsEntity)
-    @Query("SELECT*FROM cakes_details")
-    fun getCakesDetails(): LiveData<CakesDetailsEntity>
+    suspend fun insertCakesDetails(details: CakesEntity)
+    @Query("SELECT*FROM cakes_details WHERE id=:pid")
+    fun getCakesDetails(pid: Int): LiveData<CakesDetailsEntity>
 }
